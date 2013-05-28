@@ -7,23 +7,20 @@
 //
 
 #import "SMXViewController.h"
-
-@interface SMXViewController ()
-
-@end
+#import "SMXCustomSegue.h"
 
 @implementation SMXViewController
 
-- (void)viewDidLoad
+- (IBAction)goBack:(UIStoryboardSegue *)segue
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning
+- (UIStoryboardSegue *) segueForUnwindingToViewController:(UIViewController *)toViewController fromViewController:(UIViewController *)fromViewController identifier:(NSString *)identifier
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    SMXCustomSegue *segue = [[SMXCustomSegue alloc] initWithIdentifier:identifier source:fromViewController destination:toViewController];
+    segue.unwinding = YES;
+    return segue;
 }
 
 @end

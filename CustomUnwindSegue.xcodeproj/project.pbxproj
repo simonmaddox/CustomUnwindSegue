@@ -18,6 +18,8 @@
 		F4CB6F8E1755168900BA4AA9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB6F8D1755168900BA4AA9 /* Default-568h@2x.png */; };
 		F4CB6F911755168900BA4AA9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CB6F8F1755168900BA4AA9 /* MainStoryboard.storyboard */; };
 		F4CB6F941755168900BA4AA9 /* SMXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB6F931755168900BA4AA9 /* SMXViewController.m */; };
+		F4CB6F9C1755169800BA4AA9 /* SMXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB6F9B1755169800BA4AA9 /* SMXSecondViewController.m */; };
+		F4CB6F9F175516B600BA4AA9 /* SMXCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB6F9E175516B600BA4AA9 /* SMXCustomSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		F4CB6F901755168900BA4AA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F4CB6F921755168900BA4AA9 /* SMXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMXViewController.h; sourceTree = "<group>"; };
 		F4CB6F931755168900BA4AA9 /* SMXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMXViewController.m; sourceTree = "<group>"; };
+		F4CB6F9A1755169800BA4AA9 /* SMXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXSecondViewController.h; sourceTree = "<group>"; };
+		F4CB6F9B1755169800BA4AA9 /* SMXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXSecondViewController.m; sourceTree = "<group>"; };
+		F4CB6F9D175516B600BA4AA9 /* SMXCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXCustomSegue.h; sourceTree = "<group>"; };
+		F4CB6F9E175516B600BA4AA9 /* SMXCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXCustomSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				F4CB6F8F1755168900BA4AA9 /* MainStoryboard.storyboard */,
 				F4CB6F921755168900BA4AA9 /* SMXViewController.h */,
 				F4CB6F931755168900BA4AA9 /* SMXViewController.m */,
+				F4CB6F9A1755169800BA4AA9 /* SMXSecondViewController.h */,
+				F4CB6F9B1755169800BA4AA9 /* SMXSecondViewController.m */,
+				F4CB6F9D175516B600BA4AA9 /* SMXCustomSegue.h */,
+				F4CB6F9E175516B600BA4AA9 /* SMXCustomSegue.m */,
 				F4CB6F7E1755168900BA4AA9 /* Supporting Files */,
 			);
 			path = CustomUnwindSegue;
@@ -177,6 +187,8 @@
 				F4CB6F841755168900BA4AA9 /* main.m in Sources */,
 				F4CB6F881755168900BA4AA9 /* SMXAppDelegate.m in Sources */,
 				F4CB6F941755168900BA4AA9 /* SMXViewController.m in Sources */,
+				F4CB6F9C1755169800BA4AA9 /* SMXSecondViewController.m in Sources */,
+				F4CB6F9F175516B600BA4AA9 /* SMXCustomSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
