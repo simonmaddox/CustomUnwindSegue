@@ -3,6 +3,9 @@
 I'm trying to trigger a custom unwind segue from a button in my second view 
 controller (not the UINavigationController's back button).
 
+If the view controllers are not embedded in a UINavigationController, 
+everything works fine. If they *are*, things go a little wonky.
+
 ## What I'm expecting
 
 If you open MainStoryboard.storyboard and delete the main 
