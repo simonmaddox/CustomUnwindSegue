@@ -56,7 +56,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9zT-A9-2TV" kind="unwind" identifier="GoBack" unwindAction="goBack:" id="12J-6P-z7J"/>
+                                    <segue destination="9zT-A9-2TV" kind="unwind" identifier="GoBack" unwindAction="goBack:" id="cjo-6D-7Xg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWI-FP-dop">
@@ -69,7 +69,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="goBack:" destination="OEh-Vl-C4u" eventType="touchUpInside" id="etS-UN-7hp"/>
+                                    <action selector="goBackButtonPressed:" destination="OEh-Vl-C4u" eventType="touchUpInside" id="QFe-t8-L7k"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -90,7 +90,6 @@
         <!--Navigation Controller-->
         <scene sceneID="qCu-K4-6BV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GyD-1t-8MS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="GPv-Nb-FYP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e4w-5b-xW4">
@@ -102,6 +101,7 @@
                         <segue destination="2" kind="relationship" relationship="rootViewController" id="c2D-PA-1UD"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GyD-1t-8MS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="138"/>
         </scene>
@@ -113,7 +113,7 @@
         <class className="SMXSecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SMXSecondViewController.h"/>
             <relationships>
-                <relationship kind="action" name="goBack:"/>
+                <relationship kind="action" name="goBackButtonPressed:"/>
             </relationships>
         </class>
         <class className="SMXViewController" superclassName="UIViewController">

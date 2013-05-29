@@ -10,7 +10,7 @@
 
 @implementation SMXSecondViewController
 
-- (IBAction)goBack:(id)sender
+- (IBAction)goBackButtonPressed:(id)sender
 {
     [self performSegueWithIdentifier:@"GoBack" sender:self];
 }

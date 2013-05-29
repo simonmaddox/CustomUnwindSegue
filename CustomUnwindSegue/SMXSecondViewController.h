@@ -10,6 +10,6 @@
 
 @interface SMXSecondViewController : UIViewController
 
-- (IBAction)goBack:(id)sender;
+- (IBAction)goBackButtonPressed:(id)sender;
 
 @end
