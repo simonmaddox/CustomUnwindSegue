@@ -27,3 +27,10 @@ Do the same thing as last time, and notice the difference in the
 Console:
 
 ![./actual.png](./actual.png)
+
+## It's fixed!
+
+After submitting a request to Apple DTS, they suggested I use a 
+UINavigationController subclass. That worked.
+
+See the working version in the `DTS_Response` branch.
