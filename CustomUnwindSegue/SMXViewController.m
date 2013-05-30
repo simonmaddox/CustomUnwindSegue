@@ -16,11 +16,4 @@
     
 }
 
-- (UIStoryboardSegue *) segueForUnwindingToViewController:(UIViewController *)toViewController fromViewController:(UIViewController *)fromViewController identifier:(NSString *)identifier
-{
-    SMXCustomSegue *segue = [[SMXCustomSegue alloc] initWithIdentifier:identifier source:fromViewController destination:toViewController];
-    segue.unwinding = YES;
-    return segue;
-}
-
 @end

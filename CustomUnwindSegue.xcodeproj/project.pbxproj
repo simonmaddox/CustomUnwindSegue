@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42BF3C81757E10900102245 /* SMXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42BF3C71757E10900102245 /* SMXNavigationController.m */; };
 		F4CB6F781755168900BA4AA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CB6F771755168900BA4AA9 /* UIKit.framework */; };
 		F4CB6F7A1755168900BA4AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CB6F791755168900BA4AA9 /* Foundation.framework */; };
 		F4CB6F7C1755168900BA4AA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CB6F7B1755168900BA4AA9 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42BF3C61757E10900102245 /* SMXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXNavigationController.h; sourceTree = "<group>"; };
+		F42BF3C71757E10900102245 /* SMXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXNavigationController.m; sourceTree = "<group>"; };
 		F4CB6F741755168900BA4AA9 /* CustomUnwindSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUnwindSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CB6F771755168900BA4AA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4CB6F791755168900BA4AA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,6 +101,8 @@
 				F4CB6F9B1755169800BA4AA9 /* SMXSecondViewController.m */,
 				F4CB6F9D175516B600BA4AA9 /* SMXCustomSegue.h */,
 				F4CB6F9E175516B600BA4AA9 /* SMXCustomSegue.m */,
+				F42BF3C61757E10900102245 /* SMXNavigationController.h */,
+				F42BF3C71757E10900102245 /* SMXNavigationController.m */,
 				F4CB6F7E1755168900BA4AA9 /* Supporting Files */,
 			);
 			path = CustomUnwindSegue;
@@ -189,6 +194,7 @@
 				F4CB6F941755168900BA4AA9 /* SMXViewController.m in Sources */,
 				F4CB6F9C1755169800BA4AA9 /* SMXSecondViewController.m in Sources */,
 				F4CB6F9F175516B600BA4AA9 /* SMXCustomSegue.m in Sources */,
+				F42BF3C81757E10900102245 /* SMXNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +317,7 @@
 				F4CB6F991755168900BA4AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
